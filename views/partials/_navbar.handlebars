@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <img src="/img/logo.png" alt="PCDF" height="60" width="50">
+    <a class="navbar-brand" href="/oc">SISTEMA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu 1
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="/rota1/opcao1">Opção 1</a></li>
+            <li><a class="dropdown-item" href="/rota1/opcao2">Opção 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Menu 2
+  </a>
+  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+    <li><a class="dropdown-item" href="/rota2/opcao1">Opção 1</a></li>
+    <li><a class="dropdown-item" href="/rota2/opcao2">Opção 2</a></li>
+    <li><a class="dropdown-item" href="/rota2/opcao3">Opção 3</a></li>
+  </ul>
+</li>
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Menu 3
+  </a>
+  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+    <li><a class="dropdown-item" href="/rota3/opcao1">Opção 1</a></li>
+    <li><a class="dropdown-item" href="/rota3/opcao2">Opção 2</a></li>
+  </ul>
+</li>
+      </ul>
+    </div>
+      <form class="d-flex" action="/rota" method="POST">
+        <input name="txtBusca" class="form-control me-2 search-item" type="text"  placeholder="Termo de busca" required>
+        <button class="btn btn-success search-item" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>

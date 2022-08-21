@@ -1,0 +1,90 @@
+/* (A) FLEX CONTAINER */
+.flex-buttons { display: flex; }
+ 
+/* (B) OPTIONAL COSMETICS */
+.flex-buttons > * {
+  box-sizing: border-box;
+  width: auto; padding: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.dataCriacao{
+  font-size: 12px;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.cabecalho-item {
+  padding: 10px;
+}
+
+.search-item {
+  padding: 10px;
+}
+
+.flex-cabecalho { 
+  display: flex; 
+  justify-content: center;
+}
+
+.alerta {
+  color: red;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating{
+  padding-bottom: 5px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.jumbotron {
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--bs-light);
+  border-radius: .3rem;  
+}
+
+.nolink {
+  background-color: rgb(29, 104, 29);
+}
+
+@media print {
+  .noprintbutton {
+    visibility: hidden;
+  }
+}

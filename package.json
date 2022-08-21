@@ -1,0 +1,36 @@
+{
+  "name": "projeto-padrao",
+  "version": "0.0.1",
+  "description": "Projeto padrao Node.JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romulorm/projeto-padrao.git"
+  },
+  "keywords": [
+    "projeto",
+    "node",
+    "padrão"
+  ],
+  "author": "Rômulo R. Moreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romulorm/projeto-padrao/issues"
+  },
+  "homepage": "https://github.com/romulorm/projeto-padrao#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "pjson": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
