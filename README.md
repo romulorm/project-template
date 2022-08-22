@@ -6,6 +6,7 @@ Projeto Node.JS padrão para utilização em outros Projetos.
 
 * NodeJS
 * NPM
+* Git
 
 ## Componentes pré-configurados:
 
@@ -20,7 +21,9 @@ Projeto Node.JS padrão para utilização em outros Projetos.
 
 ## Como utilizar
 
-* Descompactar o zip do Projeto no seu projeto já inicializado no Git. Crie uma pasta, acesse-a pelo terminal edê um "git init".
+* Crie uma pasta para o projeto, acesse-a pelo terminal e digite "git init".
+* Descompacte o zip do projeto-padrao na pasta do seu projeto.
 * Para executar em desenvolvimento: npm run dev
+* Para executar em produção: npm start
 
 
