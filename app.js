@@ -17,7 +17,7 @@ app.use(session({
 //Flash
 app.use(flash())
 
-//Variáveis de Middleware
+//Middleware variables
 app.use((req, res, next) => {
     res.locals.success_msg = req.flash('success_msg')
     res.locals.error_msg = req.flash('error_msg')
@@ -33,20 +33,20 @@ app.use((req, res, next) => {
     app.set('view engine', 'handlebars');
     //app.set('views', path.join(__dirname, 'views'))
 
-// Arquivos estáticos públicos (css, img, js)
+// Static files (css, img, js)
     app.use(express.static('public'));
 
-// Chamar página principal
+// Main page
 app.get('/', (req, res) => {
     res.render('index')
     })
 
 
 
-//Iniciando servidor WEB
-    var sistema = "Nome do sistema"
+// WEB server initialize
+    var appname = "App name"
     var version = pjson.version
     var port = process.env.PORT || 3000
     var url = 'http://localhost'
 
-    app.listen(port, () => console.log(`${sistema} ${version} executando no endereço ${url}:${port}`))
+    app.listen(port, () => console.log(`${appname} ${version} executando no endereço ${url}:${port}`))

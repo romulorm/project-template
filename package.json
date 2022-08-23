@@ -1,7 +1,7 @@
 {
-  "name": "projeto-padrao",
+  "name": "project-template",
   "version": "0.0.1",
-  "description": "Projeto padrao Node.JS",
+  "description": "Node.JS project template for use in other projects.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romulorm/projeto-padrao.git"
+    "url": "git+https://github.com/romulorm/project-template.git"
   },
   "keywords": [
-    "projeto",
+    "project",
     "node",
-    "padrão"
+    "template"
   ],
   "author": "Rômulo R. Moreira",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/romulorm/projeto-padrao/issues"
+    "url": "https://github.com/romulorm/project-template/issues"
   },
-  "homepage": "https://github.com/romulorm/projeto-padrao#readme",
+  "homepage": "https://github.com/romulorm/project-template#readme",
   "dependencies": {
     "express": "^4.18.1",
     "express-flash": "^0.0.2",

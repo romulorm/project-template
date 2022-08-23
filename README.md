@@ -1,14 +1,14 @@
-# projeto-padrao
+# project-template
 
-Projeto Node.JS padrão para utilização em outros Projetos.
+Node.JS project template for use in other projects.
 
-## Pré-requisitos:
+## Dependencies:
 
 * NodeJS
 * NPM
 * Git
 
-## Componentes pré-configurados:
+## Pre-configured components:
 
 * Express
 * Handlebars
@@ -19,11 +19,11 @@ Projeto Node.JS padrão para utilização em outros Projetos.
 * Navbar
 * Print layout
 
-## Como utilizar
+## How to use
 
-* Crie uma pasta para o projeto, acesse-a pelo terminal e digite "git init".
-* Descompacte o zip do projeto-padrao na pasta do seu projeto.
-* Para executar em desenvolvimento: npm run dev
-* Para executar em produção: npm start
+* Create a folder for the project, access it from terminal and type "git init".
+* Open project-template-main.zip, open project-template-main folder, select all files and drag and drop to your project folder.
+* To run in development mode: npm run dev
+* To run in production mode: npm start
 
 
